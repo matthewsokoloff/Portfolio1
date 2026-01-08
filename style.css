@@ -69,6 +69,7 @@ h1, h2, h3, h4, p {
 }
 
 .hero_header_content {
+    display: flex;
     padding: 20px;
 }
 
