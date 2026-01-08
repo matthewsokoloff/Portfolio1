@@ -195,15 +195,6 @@ main {
     background-color: #DFD4B9;
 }
 
-.header3 {
-    flex: 0 0 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0d1b2a;
-    color: #e0e1dd;
-}
-
 .link {
     display: inline-block;
     color: #e0e1dd;
