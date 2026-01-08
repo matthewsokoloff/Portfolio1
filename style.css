@@ -53,6 +53,9 @@ h1, h2, h3, h4, p {
 
 .hero_header {
     position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     min-height: 100vh;
     gap: 20px;
 }
@@ -66,9 +69,6 @@ h1, h2, h3, h4, p {
 }
 
 .hero_header_content {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     padding: 20px;
 }
 
