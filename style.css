@@ -94,7 +94,6 @@ h1, h2, h3, h4, p {
 
 .selfie {
     width: 100%;
-    height: 100%;
     display: block;
 }
 
@@ -163,6 +162,7 @@ main {
     flex: 1;
     display: grid;
     overflow: hidden;
+    position: relative;
 }
 
 .image img {
@@ -176,6 +176,7 @@ main {
     height: auto;
     display: block;
     z-index: 2;
+    position: relative;
     animation-timing-function: ease-in-out;
 }
 
@@ -184,8 +185,9 @@ main {
 }
 
 .bottom_img {
+    position: absolute;
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     z-index: 1;
 }
@@ -238,6 +240,21 @@ main {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes displayImage {
+    0% {
+        opacity: 0;
+    }
+    18% {
+        opacity: 1;
+    }
+    78% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 
