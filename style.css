@@ -158,11 +158,21 @@ main {
     background-color: #C2C0A9;
 }
 
+.list_projects, .icons {
+    background-color: #C2C0A9;
+}
+
+.list_projects {
+    margin: 0;
+    padding: 3rem;
+}
+
 .image {
     flex: 1;
     display: grid;
     overflow: hidden;
     position: relative;
+    background-color: #C2C0A9;
 }
 
 .image img {
